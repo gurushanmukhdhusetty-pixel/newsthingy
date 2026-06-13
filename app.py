@@ -1,7 +1,5 @@
 # app.py
-import os
-st.write("My terminal is currently running in:", os.getcwd())
-st.write("Available secrets:", st.secrets.to_dict())
+
 import streamlit as st
 from utils.helpers import fetch_news_data
 
