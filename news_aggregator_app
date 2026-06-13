@@ -1,0 +1,11 @@
+news_aggregator_app/
+│
+├── app.py                 # Main entry point of the app
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Prevents secrets from being committed
+│
+├── .streamlit/
+│   └── secrets.toml       # Private credentials (API key)
+│
+└── utils/
+    └── helpers.py         # Helper functions (API fetching logic)
